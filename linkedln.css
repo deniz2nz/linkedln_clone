@@ -1,0 +1,64 @@
+
+input[type="search"]::placeholder{
+    background-image: url(search.svg);
+    background-repeat: no-repeat;
+    background-size: 10%; 
+    background-position: left;
+    text-align: left;
+    padding-left: 25px;
+    background-size: 20px 20px;
+}
+.profile_img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+input[type="search"]:hover{
+    width: 420px;
+    transition: width 2.5s;
+    border:  2px solid;
+ }
+ input[type="search"]{
+    background-color: rgba(166, 167, 169, 0.2);
+}
+.navbar{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 60px;
+    z-index: 105;
+    background-color: rgb(255, 255, 255);
+}
+.navin_bari{
+    background-color: rgb(255, 255, 255);
+}
+* {
+    font-family: "Spectral", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.discover:hover{
+  background-color: rgb(146, 146, 149);
+}
+.text{
+    width: 25rem;
+    height: 3rem;
+    border-radius: 35px !important;
+    border: 1px solid rgb(0 0 0/.3);
+}
+.smalltext{
+    font-size: small;
+}
+.links a{
+    text-decoration: none;
+    color: rgb(99, 98, 98);
+    margin: 5px ;
+}
+.navbar-nav li{
+    margin-top: 15px;
+    margin-left: 5px;
+}
+.logo{
+    width: 35px;
+    height: 35px;
+}
